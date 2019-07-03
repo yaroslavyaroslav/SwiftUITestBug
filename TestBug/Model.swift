@@ -32,7 +32,11 @@ class MyObject: BindableObject {
 }
 
 class ObjectsStore: BindableObject {
-    var objectsStore: [MyObject]
+    var objectsStore: [MyObject] {
+        didSet {
+            didChange.send()
+        }
+    }
     
     var didChange = PassthroughSubject<Void, Never>()
     
@@ -42,10 +46,10 @@ class ObjectsStore: BindableObject {
 
     }
     
+    
     public func append(object: MyObject) {
         self.objectsStore.append(object)
         didChange.send()
-        
     }
 }
 

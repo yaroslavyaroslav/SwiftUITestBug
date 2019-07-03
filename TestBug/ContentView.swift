@@ -9,12 +9,12 @@
 import SwiftUI
 
 struct InitialView : View {
-//    @State var objectsStore = GLOBAL_OBJECTS_STORAGE
-    @Environment(\.myObjectsStore) var objectsStore: ObjectsStore
+    @State var objectsStore = GLOBAL_OBJECTS_STORAGE
+//    @Environment(\.myObjectsStore) var objectsStore: ObjectsStore
     var body: some View {
         Group {
 //            PresentationLink(destination: ObjectsListView(objectsStore: objectsStore)) {
-            PresentationLink(destination: ObjectsListView()) {
+            PresentationLink(destination: ObjectsListView(objectsStore: $objectsStore)) {
                 Text("Show ListView")
             }
             PresentationLink(destination: EmptyView()) {

@@ -14,8 +14,8 @@
             filePath = "TestBug/Model.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "append(object:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -24,9 +24,9 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B1E9E670-2566-4405-9A62-54B99D146352"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
-            continueAfterRunningActions = "No"
+            continueAfterRunningActions = "Yes"
             filePath = "TestBug/ListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -34,38 +34,38 @@
             endingLineNumber = "21"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "B1E9E670-2566-4405-9A62-54B99D146352 - aefe609e2100751a"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TestBug.MyObject&gt;, SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.ForEach&lt;Swift.Array&lt;TestBug.MyObject&gt;, SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.PresentationLink&lt;SwiftUI.Text, TestBug.ObjectsDetailView&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; SwiftUI.Form&lt;SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.ForEach&lt;Swift.Array&lt;TestBug.MyObject&gt;, SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.PresentationLink&lt;SwiftUI.Text, TestBug.ObjectsDetailView&gt;, SwiftUI.EmptyView&gt;)&gt;&gt; in TestBug.ObjectsListView.body.getter : some"
-                  moduleName = "TestBug"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/devel/Programming/swift/iOS/TestBug/TestBug/ListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "74">
-               </Location>
-               <Location
-                  uuid = "B1E9E670-2566-4405-9A62-54B99D146352 - 67d1842a01ee89d1"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (TestBug.MyObject) -&gt; SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TestBug.MyObject&gt;, SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.ForEach&lt;Swift.Array&lt;TestBug.MyObject&gt;, SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.PresentationLink&lt;SwiftUI.Text, TestBug.ObjectsDetailView&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; SwiftUI.Form&lt;SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.ForEach&lt;Swift.Array&lt;TestBug.MyObject&gt;, SwiftUI.NavigationLink&lt;TestBug.ObjectsDetailView&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.PresentationLink&lt;SwiftUI.Text, TestBug.ObjectsDetailView&gt;, SwiftUI.EmptyView&gt;)&gt;&gt; in TestBug.ObjectsListView.body.getter : some"
-                  moduleName = "TestBug"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/devel/Programming/swift/iOS/TestBug/TestBug/ListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "0">
-               </Location>
-            </Locations>
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "p objectsStore.objectsStore">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1FDCF3A-C936-4AA8-997B-0E7FC35819F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "TestBug/Model.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "objectsStore"
+            landmarkType = "24">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "po print(&quot;storage didchacne&quot;)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

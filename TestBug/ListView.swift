@@ -11,14 +11,15 @@ import SwiftUI
 
 struct ObjectsListView : View {
     
-    @Environment(\.myObjectsStore) var objectsStore: ObjectsStore
-//    @Binding var objectsStore: ObjectsStore
+//    @Environment(\.myObjectsStore) var objectsStore: ObjectsStore
+    @Binding var objectsStore: ObjectsStore
     
     var body: some View {
         Group {
             Form {
                 Section {
-                    ForEach(objectsStore.objectsStore) { object in
+                    ForEach(objectsStore.objectsStore)
+                    { object in
                         NavigationLink(destination: ObjectsDetailView(myObject: object)) {
                             ObjectsDetailView(myObject: object)
                         }
